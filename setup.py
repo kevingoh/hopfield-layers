@@ -13,7 +13,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type=r'text/markdown',
     packages=setuptools.find_packages(),
-    python_requires=r'>=3.8.0',
+    #python_requires=r'>=3.8.0',
     install_requires=[
         r'torch>=1.5.0',
         r'numpy>=1.20.0'
